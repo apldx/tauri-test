@@ -35,6 +35,7 @@ jobs:
         releaseBody: "See the assets to download this version and install."
         releaseDraft: true
         prerelease: false
+        configPath: tauri.conf.json
     - uses: actions/upload-artifact@v2
       with:
         name: windows-exe
